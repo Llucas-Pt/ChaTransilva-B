@@ -17,6 +17,10 @@ app.get('*', (req, res) => {
 })
 
 
+app.get('/', (req, res) => {
+  res.send("Servidor rodando")
+})
+
 
 app.post("/authenticate", async (req, res) => {
     const {username} = req.body
