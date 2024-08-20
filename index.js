@@ -21,7 +21,7 @@ app.get('*', (req, res) => {
 
 
 app.get('/', (req, res) => {
-  res.send("Servidor rodando")
+  res.send("Servidor rodando!")
 })
 
 
